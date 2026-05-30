@@ -1,0 +1,12 @@
+[package]
+name = "grand-pattern-cli"
+version = "1.0.0"
+edition = "2021"
+description = "CLI tool for the Grand Pattern — create, run, visualize, analyze cellular graph intelligence"
+license = "MIT"
+
+[[bin]]
+name = "grand-pattern"
+path = "src/main.rs"
+
+[dependencies]
